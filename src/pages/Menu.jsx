@@ -8,6 +8,7 @@ const Menu = () => {
       <>
         <h1>Menu Page</h1>
         <button onClick={() => navigate("/")}> GO HOME </button>
+        <button onClick={() => navigate("/list")}> GO LIST </button>
       </>
     );
 };
